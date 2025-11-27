@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    printf("program running...\n");
+    printf("program is running...\n");
     return 0;
+
 }
