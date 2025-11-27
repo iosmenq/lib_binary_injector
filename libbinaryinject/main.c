@@ -1,3 +1,8 @@
+/*
+* main.c
+* Coded by iosmen (c) 2025
+* adding new features for binary
+*/
 #define _GNU_SOURCE
 #include <stdio.h>
 #include <stdlib.h>
@@ -740,4 +745,5 @@ int __libc_start_main(
     real_main = main;
     
     return original_libc_start_main(hooked_main, argc, argv, init, fini, rtld_fini, stack_end);
+
 }
